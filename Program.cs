@@ -4,7 +4,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
-using Nume_Pren_Lab2.Data;
+using Kotai_Melinda_Lab2.Data;
 using System;
 using System.Collections.Generic;
 using System.Linq;
