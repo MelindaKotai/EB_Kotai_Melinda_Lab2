@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-
+using Kotai_Melinda_Lab2.Hubs;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -24,6 +24,7 @@ namespace Kotai_Melinda_Lab2
 			services.AddControllersWithViews();
 			services.AddDbContext<LibraryContext>(options =>
 				options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
+			services.AddSignalR();
 		}
 
 		// This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -51,6 +52,7 @@ namespace Kotai_Melinda_Lab2
 				endpoints.MapControllerRoute(
 					name: "default",
 					pattern: "{controller=Home}/{action=Index}/{id?}");
+				endpoints.MapHub<ChatHub>("/chathub");
 			});
 		}
 	}
