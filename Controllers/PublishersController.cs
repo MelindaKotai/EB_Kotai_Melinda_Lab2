@@ -8,6 +8,8 @@ using Microsoft.EntityFrameworkCore;
 using Kotai_Melinda_Lab2.Data;
 using Kotai_Melinda_Lab2.Models;
 using Kotai_Melinda_Lab2.Models.LibraryViewModels;
+using LibraryModel_Kotai_Melinda_Lab6.Models;
+using LibraryModel_Kotai_Melinda_Lab6.Data;
 
 namespace Kotai_Melinda_Lab2.Controllers
 {

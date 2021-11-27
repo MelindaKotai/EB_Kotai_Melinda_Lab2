@@ -1,14 +1,10 @@
 using Kotai_Melinda_Lab2.Data;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
-using Kotai_Melinda_Lab2.Data;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+using LibraryModel_Kotai_Melinda_Lab6.Data;
 
 namespace Kotai_Melinda_Lab2
 {

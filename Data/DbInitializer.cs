@@ -1,9 +1,7 @@
-﻿using Kotai_Melinda_Lab2.Models;
-using Kotai_Melinda_Lab2.Data;
+﻿using LibraryModel_Kotai_Melinda_Lab6.Data;
+using LibraryModel_Kotai_Melinda_Lab6.Models;
 using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Threading.Tasks;
 
 namespace Kotai_Melinda_Lab2.Data
 {

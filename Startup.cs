@@ -5,8 +5,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Kotai_Melinda_Lab2.Data;
-
+using LibraryModel_Kotai_Melinda_Lab6.Data;
 
 namespace Kotai_Melinda_Lab2
 {

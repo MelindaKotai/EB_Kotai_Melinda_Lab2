@@ -1,14 +1,12 @@
-﻿using Kotai_Melinda_Lab2.Models;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Logging;
-using System;
-using System.Collections.Generic;
+﻿using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 using Kotai_Melinda_Lab2.Data;
 using Kotai_Melinda_Lab2.Models.LibraryViewModels;
+using LibraryModel_Kotai_Melinda_Lab6.Models;
+using LibraryModel_Kotai_Melinda_Lab6.Data;
 
 namespace Kotai_Melinda_Lab2.Controllers
 {

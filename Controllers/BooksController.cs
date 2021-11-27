@@ -1,12 +1,10 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
-using Kotai_Melinda_Lab2.Models;
-using Kotai_Melinda_Lab2.Data;
+using LibraryModel_Kotai_Melinda_Lab6.Models;
+using LibraryModel_Kotai_Melinda_Lab6.Data;
 
 namespace Kotai_Melinda_Lab2.Controllers
 {
