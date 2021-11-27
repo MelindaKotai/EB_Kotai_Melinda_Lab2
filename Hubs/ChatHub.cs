@@ -14,4 +14,4 @@ namespace Kotai_Melinda_Lab2.Hubs
         }
     }
 }
-}
+
